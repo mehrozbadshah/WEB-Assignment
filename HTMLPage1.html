@@ -1,0 +1,256 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma,;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: red;
+            color: lightskyblue;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                nav ul li a {
+                    color: lightskyblue;
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: color 0.3s ease;
+                }
+
+                    nav ul li a:hover {
+                        color: #FFD700;
+                    }
+
+        section {
+            padding: 30px;
+            margin: 30px;
+            background-color: lightskyblue;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: red;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #FF6347;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 2px solid #FF6347;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: red;
+            color: lightskyblue;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+            form label, form input, form textarea {
+                margin: 10px 0;
+            }
+
+                form input[type="text"], form input[type="email"], form textarea {
+                    padding: 15px;
+                    border: 2px solid #FF6347;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+
+                form input[type="submit"] {
+                    padding: 15px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: red;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 16px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+
+                    form input[type="submit"]:hover {
+                        background-color: #FFD700;
+                    }
+
+        footer {
+            background-color: red;
+            color: lightskyblue;
+            text-align: center;
+            padding: 2px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Welcome to My Online Bookstore</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Featured Books</h2>
+                <div class="books">
+                    <div class="book">
+                        <img src="Bang E Dara.jpg" alt="Bang E Dara">
+                        <h3>Poetry</h3>
+                        <p>This is majestic and grandiose verse,it leaves the reader awestruck.There are profound observations on life and the universe.</p>
+                    </div>
+                    <div class="book">
+                        <img src="SAQI NAMA.jpg" alt="SAQI NAMA">
+                        <h3>Iqbal Nama</h3>
+                        <p>Mohammad Iqbal (1877-1938), a descendant of a Kashmiri Brahmin family that had embraced Islam in the seventeenth century, was born and settled in Sialkot..</p>
+                    </div>
+                    <div class="book">
+                        <img src="SHIKWA JAWAB E SHIKWA.jpg" alt="SHIKWA JAWAB E SHIKWA">
+                        <h3>Poem</h3>
+                        <p> Iqbal's complaint to God about the downfall of Muslims and the oppression faced by them.</p>
+                    </div>
+                    <div class="book">
+                        <img src="A TREASURY OF IQBAL.jpg" alt="A TREASURY OF IQBAL">
+                        <h3>Iqbal ki Duniya</h3>
+                        <p>Iqbal wrote poems while celebrating the beauty of nature.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>About Us</h2>
+                <p>Welcome to our  Book-Store. We are dedicated to give you our best, with a focus on  variety, and customer service. Our aim begins with a passion for reading and a vision to make books accessible to everyone & everywhere. We can imagine joy to  discover a new author and his published books . Thank you for choosing our Online Book Store. We hope you enjoy our products as much as we enjoy offering them to you. </p>
+            </section>
+
+            <section>
+                <h2>Book List</h2>
+                <table>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Price (PKR)</th>
+                    </tr>
+                    <tr>
+                        <td>Deewan E Ghalib</td>
+                        <td>Mirza Ghalib</td>
+                        <td>900 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Kulliyat-e-Iqbal</td>
+                        <td>Allama Iqbal</td>
+                        <td>1200 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Javid Nama</td>
+                        <td>Allama Iqbal</td>
+                        <td>1500 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Zaboor E Ajam</td>
+                        <td>Allama Iqbal</td>
+                        <td>2000 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>The Secrets of the self</td>
+                        <td>Allama Iqbal</td>
+                        <td>800 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Message From The East</td>
+                        <td>Allama Iqbal</td>
+                        <td>950 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Ghazals of Ghalib</td>
+                        <td>Mirza Ghalib</td>
+                        <td>650 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>The Famous Ghalib</td>
+                        <td>Mirza Ghalib</td>
+                        <td>800 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Gift From Hijaz</td>
+                        <td>Allama Iqbal</td>
+                        <td>900 Pkr</td>
+                    </tr>
+                    <tr>
+                        <td>Kulliyat E Iqbal</td>
+                        <td>Allama Iqbal</td>
+                        <td>1050 Pkr</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Customer Reviews</h2>
+                <p>Iqbal , the national poet of Pakistan is greatest poet , at least for me he indeed is . His every book is a world of spiritual philosophy .</p>
+            </section>
+            <section>
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 My Online Bookstore</p>
+        </footer>
+    </body>
+</html>

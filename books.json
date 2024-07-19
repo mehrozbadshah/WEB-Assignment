@@ -1,0 +1,50 @@
+[
+    {
+    "title": "Shab E Rafta",
+      "author": "Majeed Amjad",
+      "description": "Philosophical poet of depth and sensitivity",
+      "image": "Shab E Rafta.jpg"
+  },
+  {
+      "title": "Shayad",
+      "author": "John Elia",
+      "description": "His expression loses the poetic rhythm at times owing to the complexity of his thoughts",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Baal E Jibreel",
+      "author": "Allama Iqbal",
+      "description": "One has to attain a certain level of Knowledge just to get a glimpse of the Idea behind",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Zarb E Kaleem",
+      "author": "Allama Iqbal",
+      "description": "One has to attain a certain level of Knowledge just to get a glimpse of the Idea behind",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Yadoon ki Barat",
+      "author": "Josh Malihabadi",
+      "description": "Created lots of interest among his readers, and it keeps them curious even now.",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Poems by Faiz",
+      "author": "Faiz Ahmad Faiz",
+      "description": "Collection of his poems is representative of the best in contemporary Urdu writing.",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Israr E Khudi",
+      "author": "Allama Iqbal",
+      "description": "One has to attain a certain level of Knowledge just to get a glimpse of the Idea behind",
+      "image": "books.jpg"
+  },
+  {
+      "title": "Shikwa",
+      "author": "Allama Iqbal",
+      "description": "One has to attain a certain level of Knowledge just to get a glimpse of the Idea behind",
+      "image": "books.jpg"
+  }
+]
